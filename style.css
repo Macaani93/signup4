@@ -1,0 +1,52 @@
+body{
+    background: url("images/Bg3.jpg");
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif ;
+}
+.signup{
+    max-width:350px;
+     border-radius:20px;
+     margin:auto;
+     background: rgba(0, 0, 0, 0);
+     box-sizing: border-box;
+     box-shadow: 1px;
+     padding: 40px;
+     color:#fff;
+     margin-top:20px; 
+     box-shadow: 7px 7px 60px #000;
+}
+ .h1{
+   text-align: center;
+   color: white;
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+}
+input[type= text],input[type=pasword]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    background: white;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted #fff ;
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+input[type=Submit]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background: blue;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+input[type=Submit]:hover{
+    background:black;
+}
